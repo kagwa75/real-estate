@@ -1,0 +1,115 @@
+/* General styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Banner styles */
+  #home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background: url('path-to-your-image.jpg') no-repeat center center/cover;
+  }
+  
+  #home .content {
+    text-align: center;
+    color: white;
+  }
+  
+  #home h2 {
+    font-size: 2.5em;
+  }
+  
+  #home p {
+    font-size: 1.2em;
+  }
+  
+  #home a {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  /* Search form styles */
+  form {
+    margin-top: 100px; /* Adjust as per navbar height */
+  }
+  
+  form input[type="text"] {
+    padding: 10px;
+    margin-right: -5px; /* Adjust the negative margin to match the button */
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  /* Property box styles */
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .result {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: calc(33.333% - 20px); /* Three items per row */
+  }
+  
+  .result img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .result moon, .result liver, .result luver, .result niiice {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .result .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  

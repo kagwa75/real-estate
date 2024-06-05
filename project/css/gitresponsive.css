@@ -1,0 +1,91 @@
+/* Style for the main navigation bar */
+.navbar {
+    background-color: #333; /* Dark background color */
+    overflow: hidden; /* Clear floats */
+    position: fixed; /* Make it stick to the top */
+    top: 0; /* Position at the top */
+    width: 100%; /* Full width */
+    list-style-type: none;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    align-items: center; /* Float to the left side */
+    display: flex; /* Change from inline to block */
+    color: white; /* White text color */
+    text-align: center; /* Center text */
+    padding: 14px 16px; /* Padding */
+    text-decoration: none; /* No underline */
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  
+  /* Logo */
+  .navbar-logo img {
+    height: 50px; /* Set the height of the logo */
+    width: auto; /* Maintain aspect ratio */
+    padding: 5px 10px; /* Padding around the logo */
+  }
+  
+  /* Navbar links on hover */
+  .navbar a:hover {
+    background-color: #ddd; /* Light grey background on hover */
+    color: black; /* Black text color on hover */
+  }
+  
+  /* Sidebar menu */
+  .sidebar_menu {
+    height: 100%; /* Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* Sidebar links */
+  .sidebar_menu a {
+    padding: 8px 8px 8px 32px; /* Padding */
+    text-decoration: none; /* No underline */
+    font-size: 25px; /* Increase font size */
+    color: #818181; /* Grey text color */
+    display: flex; /* Change from inline to block */
+    transition: 0.3s; /* Transition effect on hover */
+  }
+  
+  /* Sidebar links on hover */
+  .sidebar_menu a:hover {
+    color: #f1f1f1; /* Light grey text color on hover */
+  }
+  
+  /* Social media icons */
+  .social_media a {
+    padding: 20px; /* Padding */
+    color: white; /* White text color */
+    text-decoration: none; /* No underline */
+  }
+  
+  /* Social media icons on hover */
+  .social_media a:hover {
+    color: #777; /* Dark grey color on hover */
+  }
+  
+  /* 'X' close button */
+  .btn_two {
+    display: flex;
+    align-items: end;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Checkbox hack for opening/closing sidebar */
+  #check:checked ~ .sidebar_menu {
+    width: 250px; /* Width of sidebar when opened */
+  }
+  

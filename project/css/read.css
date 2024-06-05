@@ -1,0 +1,54 @@
+/* About Section CSS */
+.about-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    padding: 60px 0;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .media-block {
+    position: relative;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.media-block img {
+    width: 100%;
+    height: auto;
+}
+  
+  .content-wrapper {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 800px;
+  }
+  
+  .about-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .about-section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  /* Add Google Fonts */
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+  
+  /* Hover Effect for Links */
+  a:hover {
+    color: #d1d1d1;
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Icon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button onclick="searchFunction()">Search</button>
+    </div>
+</div>
+
+<script>
+    function searchFunction() {
+        var searchText = document.querySelector('.search-container input').value;
+        // Perform search logic here (e.g., redirect to search results page)
+        console.log("Searching for: " + searchText);
+    }
+</script>
+
+</body>
+</html>

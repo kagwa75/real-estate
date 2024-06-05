@@ -1,0 +1,50 @@
+/* Contact Section CSS */
+.contact-section {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-section form {
+    margin-bottom: 20px;
+  }
+  
+  .contact-section input,
+  .contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact-section button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-section button:hover {
+    background-color: #4cae4c;
+  }
+  
+  .other-contacts {
+    margin-top: 20px;
+  }
+  
+  .other-contacts ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .other-contacts li {
+    margin-bottom: 10px;
+  }
+  

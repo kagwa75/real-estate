@@ -1,0 +1,83 @@
+.menu .heading span{
+    color: burlywood;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+}
+.menu h1{
+    color: var(--main-color);
+}
+  .menu .box-container .result{
+    background-color:#1940db;
+margin :5px;
+border: 1px solid #ccc;
+float:left;
+width:300px;
+ border-color: transparent;
+ border-width:8px;
+ background:#fff;
+ padding: 5px;
+ margin-bottom: 20px;
+ border-radius: 10px;
+ flex-wrap: wrap;
+ display: flex;
+ object-fit: cover;
+ justify-content:last baseline;
+ height: auto;
+ align-items: center;
+ grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+  }
+
+
+
+
+  
+  .menu .box-container .result img {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    object-fit: cover;
+  }
+  
+  .menu .box-container .result .moon {
+    display: block;
+    font-size: 40px;
+    color: #333;
+    margin-top: 10px;
+    text-decoration: overline;
+  }
+  
+  .menu .box-container .result .liver {
+    display: block;
+    font-size: 14px;
+    color: #880c0c;
+    margin-top: 5px;
+    font-size: 7.2rem;
+  }
+  
+  .menu .box-container .result .luver {
+    display: block;
+    font-size: 1.2rem;
+    font-style: oblique;
+    color: #3d0fe4;
+    margin-top: 5px;
+  }
+  
+  .menu .box-container .result .niiice {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .menu .box-container .result .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    display: inline-block;
+    
+  }
